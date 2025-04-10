@@ -182,8 +182,8 @@ body.resume-page {
 
 .about img {
   flex: 1 1 35%;
-  width: 25%;
-  max-width: 35%;
+  width: 50%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   flex-shrink: 0;
