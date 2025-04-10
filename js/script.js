@@ -110,10 +110,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const matched = savedNames.find(entry => entry.name === storedName);
 
     const greetingText = matched?.newEntry
-      ? `${greeting} ${storedName}! Welcome to Natsu's site. It's ${time} EST on ${date}, and currently the weather is: ${cachedWeather}.`
+      ? `${greeting} ${storedName}! Welcome to Natsu's site. It's ${time} EST on ${date}, and currently the weather in Detroit is: ${cachedWeather}.`
       : `${greeting} ${storedName}! Glad to see you back. It's ${time} EST on ${date}, and currently the weather is: ${cachedWeather}.`;
 
-    const lastVisitText = matched ? `Do you remember? You last visited on ${matched.lastVisit}.` : "";
+    const lastVisitText = matched ? `You last visited on ${matched.lastVisit}.` : "";
 
     document.getElementById("modalGreetingText").innerText = greetingText;
     document.getElementById("modalLastVisitText").innerText = lastVisitText;
