@@ -318,3 +318,15 @@ body.resume-page {
   color: #234;
 }
 
+@media screen and (max-width: 768px) {
+  .portfolio-grid {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .portfolio-entry img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
