@@ -1,0 +1,63 @@
+/* Gallery.html styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+  
+  .gallery-entry {
+    flex: 1 1 30%;
+    background: #ffffff;
+    padding: 1em;
+    border-radius: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .gallery-strip img {
+    height: 80px;
+    border-radius: 4px;
+    margin-right: 0.5em;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 30vw, 400px), 1fr));
+    gap: 2em;
+    padding: 0.5em;
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: clamp(180px, 20vw, 300px);
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .gallery-page {
+    padding-top: 130px;
+    text-align: center;
+  }
+  
+  .gallery-title {
+    text-align: center;
+    font-family: 'Zenkaku';
+    font-size: 2.5rem;
+    color: #2e9cca;
+    margin-bottom: 1em;
+  }
+  
+  .gallery-caption {
+    margin-top: 0.5em;
+    font-size: 1rem;
+    color: #234;
+    text-align: left;
+    padding-left: 0.5em;
+  }

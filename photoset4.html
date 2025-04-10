@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/welcomemodal.css">
+  <style>
+    .photo-set-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2em;
+      padding-top: 140px;
+    }
+
+    .photo-set-container img {
+      width: 100%;
+      max-width: 50%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .photo-pair {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 2em;
+      width: 100%;
+    }
+
+    .photo-pair img {
+      width: 100%;
+      max-width: 35%;
+      height: auto;
+    }
+
+    .photo-set-container img.larger-image {
+      max-width: 72.5%;
+    }
+
+    .back-button {
+      margin: 2em auto;
+      padding: 0.75em 2em;
+      background-color: #2e9cca;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .gallery-title {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <img src="images/natsu_banner1.jpg" alt="Banner" class="Banner">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Me</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Photoset Content -->
+  <main class="photo-set-container">
+    <h2 class="gallery-title">カフェ | Cafe</h2>
+    <p class="gallery-description">Muse: Rem Tolentino</p>
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe1.jpg" alt="Cafe">
+        <img src="images/photoset3_cafe/cafe2.jpg" alt="Cafe">
+    </div>
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe3.jpg" alt="Cafe">
+        <img src="images/photoset3_cafe/cafe4.jpg" alt="Cafe">
+    </div>
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe5.jpg" alt="Cafe">
+        <img src="images/photoset3_cafe/cafe6.jpg" alt="Cafe">      
+    </div>
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe8.jpg" alt="Cafe">     
+        <img src="images/photoset3_cafe/cafe9.jpg" alt="Cafe">
+    </div>
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe10.jpg" alt="Cafe">     
+        <img src="images/photoset3_cafe/cafe11.jpg" alt="Cafe">
+    </div>
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe12.jpg" alt="Cafe">     
+        <img src="images/photoset3_cafe/cafe13.jpg" alt="Cafe">
+    </div>
+
+    <div class="photo-pair">
+        <img src="images/photoset3_cafe/cafe14.jpg" alt="Cafe">     
+        <img src="images/photoset3_cafe/cafe15.jpg" alt="Cafe">
+    </div>
+    <a href="gallery.html" class="back-button">← Back to Gallery</a>
+  </main>
+</body>
+</html>

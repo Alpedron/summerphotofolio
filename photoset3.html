@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Withered Flower</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/welcomemodal.css">
+  <style>
+    .photo-set-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2em;
+      padding-top: 140px;
+    }
+
+    .photo-set-container img {
+      width: 100%;
+      max-width: 50%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .photo-pair {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 2em;
+      width: 100%;
+    }
+
+    .photo-pair img {
+      width: 100%;
+      max-width: 35%;
+      height: auto;
+    }
+
+    .photo-set-container img.larger-image {
+      max-width: 72.5%;
+    }
+
+    .back-button {
+      margin: 2em auto;
+      padding: 0.75em 2em;
+      background-color: #2e9cca;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .gallery-title {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <img src="images/natsu_banner1.jpg" alt="Banner" class="Banner">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Me</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Photoset Content -->
+  <main class="photo-set-container">
+    <h2 class="gallery-title">枯れた花 | Withered Flower</h2>
+    <p class="gallery-description">Muse: Emilia Ito </p>
+    <img src="images/photoset5_whiterose/whiterose1.jpg" alt="Withered Flower">
+    <div class="photo-pair">
+      <img src="images/photoset5_whiterose/whiterose2.jpg" alt="Withered Flower">
+      <img src="images/photoset5_whiterose/whiterose3.jpg" alt="Withered Flower">
+    </div>
+    <div class="photo-pair">
+      <img src="images/photoset5_whiterose/whiterose4.jpg" alt="Withered Flower">
+      <img src="images/photoset5_whiterose/whiterose5.jpg" alt="Withered Flower">
+    </div>
+    <div class="photo-pair">
+      <img src="images/photoset5_whiterose/whiterose6.jpg" alt="Withered Flower">
+      <img src="images/photoset5_whiterose/whiterose7.jpg" alt="Withered Flower">
+    </div>
+    <img src="images/photoset5_whiterose/whiterose8.jpg" alt="Withered Flower" class="larger-image">
+    <div class="photo-pair">
+      <img src="images/photoset5_whiterose/whiterose9.jpg" alt="Withered Flower">
+      <img src="images/photoset5_whiterose/whiterose10.jpg" alt="Withered Flower">
+    </div>
+    <div class="photo-pair">
+      <img src="images/photoset5_whiterose/whiterose11.jpg" alt="Withered Flower">
+      <img src="images/photoset5_whiterose/whiterose12.jpg" alt="Withered Flower">
+    </div>
+
+    <a href="gallery.html" class="back-button">← Back to Gallery</a>
+  </main>
+</body>
+</html>

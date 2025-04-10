@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vending Machine</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/welcomemodal.css">
+  <style>
+    .photo-set-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2em;
+      padding-top: 140px;
+    }
+
+    .photo-set-container img {
+      width: 100%;
+      max-width: 70%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .photo-pair {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 2em;
+      width: 100%;
+    }
+
+    .photo-pair img {
+      width: 100%;
+      max-width: 35%;
+      height: auto;
+    }
+
+    .photo-set-container img.larger-image {
+      max-width: 72.5%;
+    }
+
+    .back-button {
+      margin: 2em auto;
+      padding: 0.75em 2em;
+      background-color: #2e9cca;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .gallery-title {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <img src="images/natsu_banner1.jpg" alt="Banner" class="Banner">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About Me</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Photoset Content -->
+  <main class="photo-set-container">
+    <h2 class="gallery-title">自販機 | Vending Machine</h2>
+    <p class="gallery-description">Muse: Krystel Cerbo</p>
+        <img src="images/photoset13_konbini/konbini1.jpg" alt="Konbini">
+        <img src="images/photoset13_konbini/konbini2.jpg" alt="Konbini">
+        <img src="images/photoset13_konbini/konbini3.jpg" alt="Konbini">
+        <img src="images/photoset13_konbini/konbini4.jpg" alt="Konbini">
+        <img src="images/photoset13_konbini/konbini5.jpg" alt="Konbini">
+        <img src="images/photoset13_konbini/konbini6.jpg" alt="Konbini">
+    <a href="gallery.html" class="back-button">← Back to Gallery</a>
+  </main>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* Fonts */
+/* Not all are used but referenced for future changes */
+@font-face {
+    font-family: 'LeftHandedGirlfriend';
+    src: url('../fonts/left-handed_girlfriend.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Mplus1';
+    src: url('../fonts/Mplus1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Thin';
+    src: url('../fonts/Poppins-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Chihaya';
+    src: url('../fonts/chihaya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ebihara';
+    src: url('../fonts/EbiharaNoKuseji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Kosugi';
+    src: url('../fonts/Kosugi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Zenkaku';
+    src: url('../fonts/ZenKakuGothicNew-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: '851';
+    src: url('../fonts/851MkPOP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NotoSerifJP';
+    src: url('../fonts/NotoSerifJP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,45 @@
+/* index.html courses table styling */
+.courses-table {
+  text-align: center;
+  font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+}
+
+.courses-table table {
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 90vw;
+  background-color: #f0faff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border: none;
+  background-color: #f0faff;
+}
+
+.courses-table th, .courses-table td {
+  border: none;
+  padding: 0.2em 2em;
+}
+
+.courses-tablee th {
+  background-color: #2e9cca;
+  color: white;
+}
+
+.courses-table td {
+  background-color: #ffffff;
+}
+
+.courses-table td:first-child {
+  text-align: left;
+}
+
+.courses-table td:nth-child(2),
+.courses-table td:nth-child(3) {
+  text-align: center;
+}
+
+.courses-table a {
+  display: inline-block;
+}
