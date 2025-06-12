@@ -151,7 +151,7 @@ body.resume-page {
   box-sizing: border-box;
 }
 
-.about h2, .courses-table h2, .skills-boxes h2, .portfolio h2, .contact h2{ 
+.about h2, .courses-table h2, .skills-boxes h2, .portfolio h2, .contact h2, .portfolio2 h2{ 
   font-family: 'Zenkaku';
   font-size: 3em;
   margin-bottom: 0.2em;
@@ -273,58 +273,67 @@ body.resume-page {
 
 
 /* Index.html Portfolio Section */
-#portfolio {
+.portfolio {
+  padding: clamp(2em, 5vw, 5em);
+  background-color: #ffffff;
+  text-align: center;
+  scroll-margin-top: 150px;
+}
+
+.portfolio2 {
   padding: clamp(2em, 5vw, 5em);
   background-color: #f0faff;
   text-align: center;
   scroll-margin-top: 150px;
 }
 
-.portfolio-grid {
+.portfolio-grid , .portfolio2-grid {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 30vw, 400px), 1fr));
   gap: 3em;
   margin-top: 1em;
 }
 
-.portfolio-entry {
+.portfolio-entry , .portfolio2-entry {
   background-color: transparent;
   padding: 1em;
   text-align: center;
 }
 
-.portfolio-entry img {
+.portfolio-entry img,
+.portfolio2-entry img {
   width: 100%;
-  height: clamp(75%, 20vw, 75%);
-  object-fit: contain;
-  display: flex;
+  max-height: 250px; /* ✅ Cap height for consistent sizing */
+  object-fit: cover;  /* ✅ Fill area more uniformly */
+  display: block;
   margin-bottom: 1em;
+  /*border-radius: 4px;*/
 }
 
-.portfolio-entry:hover img {
+.portfolio-entry:hover img, .portfolio2-entry:hover img {
   transform: scale(1.05);
   cursor: pointer;
   transition: transform 0.5s ease;
 }
 
-.portfolio-entry h3 {
+.portfolio-entry h3, .portfolio2-entry h3 {
   margin: 0.5em 0;
   font-size: 1.2rem;
   color: #2e9cca;
 }
 
-.portfolio-entry p {
+.portfolio-entry p, .portfolio2-entry p {
   font-size: 1rem;
   color: #234;
 }
 
 @media screen and (max-width: 768px) {
-  .portfolio-grid {
+  .portfolio-grid, .portfolio2-grid{
     flex-direction: column;
     gap: 2em;
   }
 
-  .portfolio-entry img {
+  .portfolio-entry img, .portfolio2-entry img {
     width: 100%;
     height: auto;
     object-fit: contain;
